@@ -1,0 +1,48 @@
+body{
+    background-color:#7ed6df;
+    color:#dff9fb;
+}
+p{
+    line-height:0.70;
+}
+#title{
+    text-align: center;
+}
+
+.currentConditions-wrapper{
+    background-color:#30336b;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;;
+}
+.city-wrapper{
+    text-align: center;
+    border:1px solid #7ed6df;
+    
+
+}
+.city{
+    position: relative;
+    top:30%;
+}
+.city-details-wrapper{
+    border: 1px solid #7ed6df;
+}
+.city-details-wrapper div{
+    position:relative;
+    top:20%;
+}
+.temperature-wrapper{
+    border:1px solid #7ed6df;
+    text-align: left;
+}
+.temperature{
+    font-size: 3rem;
+}
+.condition{
+    display: inline-block;
+}
+.wind{
+    display: inline-block;
+    margin-top:8px;
+}
